@@ -1,5 +1,6 @@
+
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, sans-serif;
     margin: 20px;
     padding: 0;
     background-color: #f0f4f8;
@@ -53,9 +54,10 @@ button{
     cursor: pointer;
     margin-top: 10px;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, sans-serif;
 }
 button:hover{
     background-color: #66b1e6;
+    transition: ease-in 0.3s;
 
 }
